@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
     {
         path = new Vector3[points.Count];
 
-        for(int i = 1; i < points.Count; i++)
+        for(int i = 0; i < points.Count; i++)
         {
             path[i] = new Vector3(points[i].x, 0f, points[i].z);
         }
